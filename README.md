@@ -65,7 +65,7 @@ Kita tambahkan loop untuk mencetak bintang, yang akan mencetak bintang sebanyak 
 
 **Pindah Baris**
 
-print()
+    print()
 
 
 Setelah mencetak spasi dan bintang di setiap baris, kita pindah ke baris baru.
