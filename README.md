@@ -161,5 +161,5 @@ Hasil luas dan keliling lingkaran ditampilkan ke layar dengan dua angka desimal.
 
 * Flowchart
 
-<img src="ss/flowchart.png" width="500">
+<img src="ss/flowchart.png" width="50%">
 
