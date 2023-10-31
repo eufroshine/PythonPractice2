@@ -66,6 +66,7 @@ Setelah mencetak spasi dan bintang di setiap baris, kita pindah ke baris baru.
  **Memanggil Fungsi dan Mencetak Berlian**
   Terakhir, kita memanggil fungsi print_diamond dengan jumlah baris yang dimasukkan oleh pengguna.
 
-  *INI OUTPUT*
-  <img src="ss/outputlat3.png" width="500">
+  *INI OUTPUTNYA*
   
+  <img src="ss/outputlat3.png" width="500">
+
