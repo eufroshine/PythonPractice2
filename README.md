@@ -35,45 +35,81 @@ Kode ini mencetak hasil penjumlahan dan pembagian dari nilai a dan b.
 
 **Membuat Fungsi print_diamond**
 
+    def print_diamond(rows):
+
+
 Pertama-tama, kita mendefinisikan fungsi print_diamond yang akan mencetak pola berlian. Fungsi ini menerima satu parameter, yaitu jumlah baris dari berlian yang akan dicetak.
 
 **Loop Pertama (Baris ke-atas)**
+
+    for i in range(1, rows + 1):
+
 
 Kita menggunakan loop for untuk membuat pola dari atas ke bawah. Loop ini akan berjalan dari 1 hingga rows + 1.
 
 **Leading Spaces (Spasi Awal**
 
+    for j in range(rows - i):
+        print(" ", end="")
+
+
 Di dalam loop pertama, kita tambahkan loop untuk mencetak spasi sebelum bintang, berdasarkan posisi baris. Ini akan mencetak spasi dari rows - i.
 
 **Bintang**
+
+    for k in range(1, 2 * i):
+        print("*", end="")
+
 
 Kita tambahkan loop untuk mencetak bintang, yang akan mencetak bintang sebanyak 2 * i - 1.
 
 **Pindah Baris**
 
+print()
+
+
 Setelah mencetak spasi dan bintang di setiap baris, kita pindah ke baris baru.
 
 **Loop Kedua (Baris ke-bawah):**
+
+    for i in range(rows - 1, 0, -1):
 
 Selanjutnya, kita menggunakan loop for yang serupa untuk membuat pola dari bawah ke atas. Loop ini akan berjalan dari rows - 1 hingga 0.
 
 **Leading Spaces (Spasi Awal) untuk Loop Kedua**
 
+    for j in range(rows - i):
+        print(" ", end="")
+
+
 Seperti pada loop pertama, kita tambahkan loop untuk mencetak spasi sebelum bintang.
 
 **Bintang untuk Loop Kedua**
+
+    for k in range(1, 2 * i):
+        print("*", end="")
+
 
 Kita tambahkan loop untuk mencetak bintang, yang akan mencetak bintang sebanyak 2 * i - 1.
 
 **Pindah Baris untuk Loop Kedua**
 
+    print()
+
+
 Setelah mencetak spasi dan bintang di setiap baris, kita pindah ke baris baru.
 
 **Input Jumlah Baris**
 
+    num_rows = int(input("Enter the number of rows: "))
+
+
  Di luar fungsi, kita minta pengguna untuk memasukkan jumlah baris yang diinginkan.
 
  **Memanggil Fungsi dan Mencetak Berlian**
+
+    print_diamond(num_rows)
+
 
   Terakhir, kita memanggil fungsi print_diamond dengan jumlah baris yang dimasukkan oleh pengguna.
 
@@ -124,3 +160,6 @@ Hasil luas dan keliling lingkaran ditampilkan ke layar dengan dua angka desimal.
 <img src="ss/outputlingkaran.png" width="500">
 
 * Flowchart
+
+<img src="ss/flowchart.png" width="500">
+
